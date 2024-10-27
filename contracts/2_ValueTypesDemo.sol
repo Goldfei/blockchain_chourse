@@ -2,7 +2,8 @@
 pragma solidity ^0.8.0;
 
 contract ValueTypesDemo {
-    int public defaultInt;
+    /* default value types */
+    int public defaultInt;  
     uint public defaultUint;
     bool public defaultBool;
     address public defaultAddress;
