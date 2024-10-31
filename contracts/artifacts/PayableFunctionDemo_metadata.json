@@ -26,6 +26,32 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_data",
+						"type": "uint256"
+					}
+				],
+				"name": "setData",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "storedData",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "totalBalance",
 				"outputs": [
@@ -80,11 +106,11 @@
 	},
 	"sources": {
 		"contracts/7_PayableFunctionDemo.sol": {
-			"keccak256": "0x327180537cadb3ed706c4f5c0b0240689ecb041e52ac1ef85f7cfcb836f2df10",
+			"keccak256": "0x0a1dc762c03cf58cb85e08229bc84ca38eaef3e28581b40b18716cbef5a235f8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://986ea2061aca63106d0cf768afb27e9c3b98ef959e13cc6bfce81637d44642ae",
-				"dweb:/ipfs/QmVAUbxi89Ba7umCvCoBG6z7j9JPhNwgFmteW4P8Z9GmZF"
+				"bzz-raw://44feb24062bd84d01b835f9c71729e2cdc7e679a6b21e827c0469edbe79a8c0a",
+				"dweb:/ipfs/QmW8m7cW4DjWLut7WxyQG5F2rdrrZ5TzguRQEp9F8EqegK"
 			]
 		}
 	},
