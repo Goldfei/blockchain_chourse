@@ -7,27 +7,20 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "deposit",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getBalance",
+				"name": "createAndManipulateArray",
 				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "newLength",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "totalBalance",
+				"name": "getArrayLength",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -42,13 +35,19 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "amount",
+						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "withdraw",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "uintArray",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -65,7 +64,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/7_PayableFunctionDemo.sol": "PayableFunctionDemo"
+			"contracts/15_ArrayOperationsDemo.sol": "ArrayOperations"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -79,12 +78,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/7_PayableFunctionDemo.sol": {
-			"keccak256": "0xd84b0ac240a3924a10fa08de0f605eff68e5628a2748ea0c517165bd1d0cca27",
+		"contracts/15_ArrayOperationsDemo.sol": {
+			"keccak256": "0xc1b510140628f96dfe162e5f0eadf0cd9c414f896dc2a0367751423770e773c4",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a20a7eb73648735b2e268cd842b14e83e5e5143e1cb96f7fc070f8d6dd5ddb78",
-				"dweb:/ipfs/QmcKZSatSRCdr7E4MKa2tCQFQYG13kWM6dToX1YBBYUcEt"
+				"bzz-raw://4e034d3d3baeb04360d6595927f578f4a9bed28afe6ed1c98e3bdf9d4fb5a23a",
+				"dweb:/ipfs/QmUKaQgeV66sAegxQuHR47E5DQ7Par7W2bPLroKXrHXEi8"
 			]
 		}
 	},

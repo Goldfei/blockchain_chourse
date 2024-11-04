@@ -6,15 +6,14 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "deposit",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getBalance",
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balances",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -26,8 +25,33 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "totalBalance",
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "key",
+						"type": "address"
+					}
+				],
+				"name": "computeStorageLocation",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					}
+				],
+				"name": "getBalance",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -46,7 +70,7 @@
 						"type": "uint256"
 					}
 				],
-				"name": "withdraw",
+				"name": "setBalance",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -65,7 +89,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/7_PayableFunctionDemo.sol": "PayableFunctionDemo"
+			"contracts/19_MappingStorageDemo.sol": "MappingStorageDemo"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -79,12 +103,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/7_PayableFunctionDemo.sol": {
-			"keccak256": "0xd84b0ac240a3924a10fa08de0f605eff68e5628a2748ea0c517165bd1d0cca27",
+		"contracts/19_MappingStorageDemo.sol": {
+			"keccak256": "0x096309d93d2331b3772de1414e3ba3aca1410764cca6a007fcd8dabfc94db6a8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a20a7eb73648735b2e268cd842b14e83e5e5143e1cb96f7fc070f8d6dd5ddb78",
-				"dweb:/ipfs/QmcKZSatSRCdr7E4MKa2tCQFQYG13kWM6dToX1YBBYUcEt"
+				"bzz-raw://50ff9cff2af446298f6190d57d9e32a551131be668456a0a3954dddee578aada",
+				"dweb:/ipfs/QmcMFDGjoqeVEYVcrDNHZmABcpCAK5oDgC3LkwpWSbC487"
 			]
 		}
 	},

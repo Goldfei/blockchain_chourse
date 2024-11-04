@@ -1,20 +1,13 @@
 {
 	"compiler": {
-		"version": "0.8.26+commit.8a97fa7a"
+		"version": "0.8.18+commit.87f61d96"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
 				"inputs": [],
-				"name": "deposit",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getBalance",
+				"name": "getBlockNumber",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -27,7 +20,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "totalBalance",
+				"name": "getLocalVariable",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -35,20 +28,33 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "amount",
+						"name": "value",
 						"type": "uint256"
 					}
 				],
-				"name": "withdraw",
+				"name": "setStateVariable",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "stateVariable",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -65,9 +71,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/7_PayableFunctionDemo.sol": "PayableFunctionDemo"
+			"contracts/13_VariableScopeDemo.sol": "VariableScopeDemo"
 		},
-		"evmVersion": "cancun",
+		"evmVersion": "paris",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -79,12 +85,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/7_PayableFunctionDemo.sol": {
-			"keccak256": "0xd84b0ac240a3924a10fa08de0f605eff68e5628a2748ea0c517165bd1d0cca27",
+		"contracts/13_VariableScopeDemo.sol": {
+			"keccak256": "0x538405632e06c41bfe97243e7ce9c1292dabd36f5f35bc586ee38627d187a56d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a20a7eb73648735b2e268cd842b14e83e5e5143e1cb96f7fc070f8d6dd5ddb78",
-				"dweb:/ipfs/QmcKZSatSRCdr7E4MKa2tCQFQYG13kWM6dToX1YBBYUcEt"
+				"bzz-raw://905eabebb9e0655c953e3033b7a727b7ec2d196d2e57f02d7c463aa1b2c2843b",
+				"dweb:/ipfs/QmZMBuK8RhnAoczJPhrCMojoLxqX6KVoKLbUzsLao63Awr"
 			]
 		}
 	},

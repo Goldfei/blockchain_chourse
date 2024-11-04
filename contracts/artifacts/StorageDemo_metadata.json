@@ -7,27 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "deposit",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getBalance",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "totalBalance",
+				"name": "number",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -42,11 +22,11 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "amount",
+						"name": "num",
 						"type": "uint256"
 					}
 				],
-				"name": "withdraw",
+				"name": "store",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -65,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/7_PayableFunctionDemo.sol": "PayableFunctionDemo"
+			"contracts/9_StorageDemo.sol": "StorageDemo"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -79,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/7_PayableFunctionDemo.sol": {
-			"keccak256": "0xd84b0ac240a3924a10fa08de0f605eff68e5628a2748ea0c517165bd1d0cca27",
+		"contracts/9_StorageDemo.sol": {
+			"keccak256": "0x3f1302e9597eab4ea94841dfbdf5898e78d792ae6158f12edc930f3fd47734a0",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a20a7eb73648735b2e268cd842b14e83e5e5143e1cb96f7fc070f8d6dd5ddb78",
-				"dweb:/ipfs/QmcKZSatSRCdr7E4MKa2tCQFQYG13kWM6dToX1YBBYUcEt"
+				"bzz-raw://557e6dffb4a803950bde7d67fd40005bd277fd52c6a856d873ccfa8e8eaf89ff",
+				"dweb:/ipfs/QmXtUxPvUw8PM8bRQhb4Ehiw7AJgtarQBDU1FnvuvjDHZb"
 			]
 		}
 	},

@@ -20,9 +20,4 @@ contract PayableFunctionDemo {
         require(amount <= address(this).balance, "Insufficient balance");
         payable(msg.sender).transfer(amount);  // 转账到调用者地址
     }
-    uint public storedData;  // 存储在 storage 中（默认）
-    function setData(uint _data) public {
-        storedData = _data;  // 修改 storage 中的数据
-    }
 }
-
