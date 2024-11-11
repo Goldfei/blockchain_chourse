@@ -38,7 +38,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/20_SortingDemo.sol": "SortingDemo"
+			"contracts/course_demo/22_SortingDemo.sol": "SortingDemo"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -52,7 +52,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/20_SortingDemo.sol": {
+		"contracts/course_demo/22_SortingDemo.sol": {
 			"keccak256": "0x318486c6d0047f083b0569bfbfd17fd56cab1fee6d0dac3712f6316deac9d22d",
 			"license": "MIT",
 			"urls": [

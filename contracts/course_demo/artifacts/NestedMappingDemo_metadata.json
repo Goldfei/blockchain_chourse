@@ -1,0 +1,117 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_user",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_resourceId",
+						"type": "uint256"
+					}
+				],
+				"name": "hasPermission",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "permissions",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_user",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_resourceId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "_hasAccess",
+						"type": "bool"
+					}
+				],
+				"name": "setPermission",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/course_demo/21_NestedMappingDemo.sol": "NestedMappingDemo"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/course_demo/21_NestedMappingDemo.sol": {
+			"keccak256": "0x89e8749a44ffade4cc141f6d02293b3204f203440e82cbcdca09081dc3b5891e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f2574cf2486173e4af4059bf2966b63ce0b169c12c6233529a9ee703ea59159c",
+				"dweb:/ipfs/QmehighE5X2CtDPpoRx3QhGTeztA8AHaUEE8oeynwu3bDA"
+			]
+		}
+	},
+	"version": 1
+}

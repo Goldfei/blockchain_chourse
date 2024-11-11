@@ -6,28 +6,14 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "deposit",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getBalance",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "address",
 						"name": "",
-						"type": "uint256"
+						"type": "address"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "totalBalance",
+				"name": "balances",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -41,12 +27,36 @@
 			{
 				"inputs": [
 					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					}
+				],
+				"name": "getBalance",
+				"outputs": [
+					{
 						"internalType": "uint256",
-						"name": "amount",
+						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "withdraw",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "setBalance",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -65,7 +75,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/7_PayableFunctionDemo.sol": "PayableFunctionDemo"
+			"contracts/test_demo/TestMappingDemo.sol": "TestMappingDemo"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -79,12 +89,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/7_PayableFunctionDemo.sol": {
-			"keccak256": "0xd84b0ac240a3924a10fa08de0f605eff68e5628a2748ea0c517165bd1d0cca27",
+		"contracts/test_demo/TestMappingDemo.sol": {
+			"keccak256": "0x4bc09401918c8eb3c56b7e3254be142d59bcc3f4c82e177428a4bae5eaa3d743",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a20a7eb73648735b2e268cd842b14e83e5e5143e1cb96f7fc070f8d6dd5ddb78",
-				"dweb:/ipfs/QmcKZSatSRCdr7E4MKa2tCQFQYG13kWM6dToX1YBBYUcEt"
+				"bzz-raw://51127023e6a0d112881899dde0cc6540f17b59f9601b5cd214073be6f2642778",
+				"dweb:/ipfs/QmTcx9YPk8iTF9uxR87hsY4PKnoWpDdGUVqxsaqgs2YBQh"
 			]
 		}
 	},
