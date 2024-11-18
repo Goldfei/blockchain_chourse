@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "Received",
+				"type": "event"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/test_demo/TestReceiveDemo.sol": "TestReceiveDemo"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/test_demo/TestReceiveDemo.sol": {
+			"keccak256": "0x6e44522bc8008ae17235bf9fe1e08d54a6cec1913aed19817bf41ffb67a671ca",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6dc18d3af3d646ce5f82132f164c2a129e53f3124e15ecb73e6e116ba2b53210",
+				"dweb:/ipfs/QmdexZQcAhdyvPbiC7svf9mTZtXTk56pJfqC36GoU1rCYN"
+			]
+		}
+	},
+	"version": 1
+}
